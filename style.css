@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #999;
+}
+
+.pesanan-sukses {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.item-spesial, .item-normal {
+    background-color: #2a2a2a;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.item-label {
+    background-color: #333;
+    padding: 8px 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.item-content {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-deskripsi {
+    flex-grow: 1;
+}
+
+.item-harga {
+    font-weight: bold;
+}
+
+.best-price {
+    background-color: #ff9800;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+.email-input {
+    margin-bottom: 20px;
+}
+
+.email-input p {
+    margin: 5px 0;
+}
+
+.email-input input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.email-info {
+    font-size: 0.8em;
+    color: #999;
+}
+
+footer {
+    text-align: center;
+}
+
+.hubungi-kami {
+    background-color: #ff9800;
+    color: #000;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
